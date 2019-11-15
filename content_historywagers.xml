@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".historyrule"
-    tools:showIn="@layout/activity_historyrule">
+    tools:context=".historywagers"
+    tools:showIn="@layout/activity_historywagers">
 
 
     <TableLayout
-        android:id="@+id/ruletable"
+        android:id="@+id/wagertable"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="60dp"
@@ -28,26 +28,27 @@
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="Banker"/>
+                android:text="Wagers"/>
             <TextView
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="Bankersecond"/>
+                android:text="Payouts"/>
             <TextView
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="Player"/>
+                android:text="Name"/>
             <TextView
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="Playersecond"/>
+                android:text="Time"/>
 
         </TableRow>
 
 
     </TableLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
