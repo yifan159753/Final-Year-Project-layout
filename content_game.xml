@@ -1,11 +1,189 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".game"
     tools:showIn="@layout/activity_game">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/rulekuai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:text=" Banker  |  Player "/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/gamebanker2"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/gamebanker1"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/gameplayer1"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp" />
+
+        <ImageView
+            android:id="@+id/gameplayer2"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_marginTop="-30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/gamebanker3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:rotation="90"
+            android:layout_marginLeft="20dp"
+            />
+        <ImageView
+            android:id="@+id/gameplayer3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:rotation="90"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="20dp"
+            />
+
+    </LinearLayout></LinearLayout>
+
+
+    <TextView
+        android:id="@+id/chipsquestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="25sp"/>
+
+
+    <TextView
+        android:id="@+id/gamequestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="25sp"
+        android:text="Do players need to draws a third card ?"/>
+
+    <Button
+        android:id="@+id/gameyes"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:visibility="visible"
+        android:text="yes" />
+
+
+    <Button
+        android:id="@+id/gameno"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        android:text="no" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/chips1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/chips1"/>
+
+        <Button
+            android:id="@+id/chips2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/chips2"/>
+
+        <Button
+            android:id="@+id/chips3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/chips3"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/chips4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/chips4"/>
+
+        <Button
+            android:id="@+id/chips5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/chips5"/>
+
+        <Button
+            android:id="@+id/chips6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/chips6"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
