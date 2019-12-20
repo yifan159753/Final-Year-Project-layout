@@ -23,25 +23,26 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:gravity="center"
-        android:textSize="15dp"
+        android:textSize="25dp"
         android:text="Betting :"/>
 
     <TextView
-        android:id="@+id/wagerquestion"
+        android:id="@+id/wagervalue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="50dp"/>
 
     <TextView
+        android:id="@+id/wagerquestion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_marginRight="60dp"
-        android:layout_marginLeft="60dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
         android:gravity="center"
-        android:textSize="15dp"
-        android:text="Wins by betting on the Banker's hand, wagers calculation:"/>
+        android:textColor="@android:color/black"
+        android:textSize="25dp"/>
 
     <TextView
         android:id="@+id/wagerans"

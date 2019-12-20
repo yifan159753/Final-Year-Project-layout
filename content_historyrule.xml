@@ -33,7 +33,7 @@
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="Bankersecond"/>
+                android:text="Banker second"/>
             <TextView
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
@@ -43,7 +43,7 @@
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="Playersecond"/>
+                android:text="Player second"/>
 
         </TableRow>
 
