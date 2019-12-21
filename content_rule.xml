@@ -96,7 +96,8 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:text="yes" />
+        android:text="yes"
+        android:background="@drawable/main_round_button"/>
 
 
     <Button
@@ -105,7 +106,9 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="no" />
+        android:text="no"
+        android:background="@drawable/main_round_button"/>
+
 
 
 </LinearLayout>

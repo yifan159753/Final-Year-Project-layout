@@ -13,87 +13,58 @@
 
     <Button
         android:id="@+id/rule"
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
         android:layout_marginTop="50dp"
         android:text="Rule learning"
-        android:background="@drawable/main_round_button" />
+        android:background="@drawable/main_round_button"
+        />
 
     <Button
         android:id="@+id/wagers"
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
         android:layout_marginTop="20dp"
         android:text="Wagers calculation"
         android:background="@drawable/main_round_button"/>
 
     <Button
         android:id="@+id/game"
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
         android:layout_marginTop="20dp"
         android:text="Game"
         android:background="@drawable/main_round_button"/>
 
 
     <Button
-        android:id="@+id/logout"
-        android:layout_width="200dp"
+        android:id="@+id/leaderboard"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="180dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="20dp"
+        android:text="leaderboard"
+        android:background="@drawable/main_round_button"/>
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
         android:layout_marginTop="20dp"
         android:text="logout"
         android:background="@drawable/main_round_button"/>
 
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="100dp"
-        android:scrollbars="none">
-    <TableLayout
-        android:id="@+id/table"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:shrinkColumns="*"
-        android:stretchColumns="*"
-        tools:ignore="MissingConstraints">
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:layout_width="120dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:text="Rank"/>
-            <TextView
-                android:layout_width="120dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:text="Username"/>
-            <TextView
-                android:layout_width="120dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:text="Mark"/>
-            <TextView
-                android:layout_width="120dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:text="Level"/>
-
-        </TableRow>
-
-
-    </TableLayout>
-    </ScrollView>
 
 
 </LinearLayout>
