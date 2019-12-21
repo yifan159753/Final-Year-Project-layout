@@ -8,6 +8,7 @@
     android:paddingLeft="30dp"
     android:paddingTop="80dp"
     android:paddingRight="30dp"
+    android:background="@drawable/background"
     tools:context=".ui.login.LoginActivity">
 
     <ImageView
