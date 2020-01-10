@@ -11,6 +11,7 @@
     tools:showIn="@layout/activity_main">
 
 
+
     <Button
         android:id="@+id/rule"
         android:layout_width="match_parent"

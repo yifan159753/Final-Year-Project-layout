@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/background"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".historygame"
     tools:showIn="@layout/activity_historygame">
 
@@ -29,35 +33,41 @@
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="Banker"/>
+                android:text="Banker"
+                android:textStyle="bold"/>
             <TextView
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="Banker second"/>
+                android:text="Banker second"
+                android:textStyle="bold"/>
             <TextView
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="Player"/>
+                android:text="Player"
+                android:textStyle="bold"/>
             <TextView
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="Player second"/>
+                android:text="Player second"
+                android:textStyle="bold"/>
             <TextView
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="Wagers"/>
+                android:text="Wagers"
+                android:textStyle="bold"/>
             <TextView
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="Payouts"/>
+                android:text="Payouts"
+                android:textStyle="bold"/>
 
         </TableRow>
 
     </TableLayout>
 
-</LinearLayout>
+</LinearLayout></ScrollView>

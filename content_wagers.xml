@@ -1,22 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/background"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".wagers"
     tools:showIn="@layout/activity_wagers">
 
-
-    <TextView
-        android:id="@+id/timer"
+    <LinearLayout
+        android:id="@+id/wagerstime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25dp"/>
+        android:orientation="horizontal"
+        android:visibility="invisible">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/seconds60">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" :  "
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:textColor="@android:color/black">
+
+        </TextView>
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:textColor="@android:color/holo_red_dark"/>
+    </LinearLayout>
 
 
     <TextView
@@ -25,14 +52,16 @@
         android:layout_marginTop="30dp"
         android:gravity="center"
         android:textSize="25dp"
-        android:text="Betting :"/>
+        android:text="Betting :"
+        android:textColor="@android:color/black"/>
 
     <TextView
         android:id="@+id/wagervalue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="50dp"/>
+        android:textSize="50dp"
+        android:textColor="@android:color/holo_red_dark"/>
 
     <TextView
         android:id="@+id/wagerquestion"
@@ -51,7 +80,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="0"
-        android:textSize="50dp"/>
+        android:textSize="50dp"
+        android:textColor="@android:color/holo_red_dark"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -143,6 +173,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
         android:layout_marginLeft="10dp"
         android:orientation="horizontal">
 
@@ -151,10 +182,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="invisible"
-            android:text="prompt"/>
+            android:text="prompt"
+            android:background="@drawable/main_round_button"/>
 
 
     </LinearLayout>
 
 
-</LinearLayout>
+</LinearLayout></ScrollView>
