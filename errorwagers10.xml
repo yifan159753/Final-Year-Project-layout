@@ -19,7 +19,7 @@
         android:layout_marginTop="10dp"
         android:textSize="25dp"
         android:textColor="#FF0000"
-        android:text="Pair pay 1 to 11">
+        android:text="Pair pay: betting × 11">
     </TextView>
 
 </LinearLayout>

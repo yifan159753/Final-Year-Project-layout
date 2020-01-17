@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="865dp"
     android:layout_height="match_parent"
     android:background="@drawable/table"
     tools:context=".introduction">
@@ -14,68 +14,56 @@
         android:layout_marginTop="-30dp"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="120dp"
-            android:orientation="horizontal">
-            <Button
-                android:id="@+id/playercard"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="310dp"
-                android:layout_marginTop="80dp"
-                android:background="@drawable/spot">
-            </Button>
-            <Button
-                android:id="@+id/bankercard"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="150dp"
-                android:layout_marginTop="70dp"
-                android:background="@drawable/spot">
-            </Button>
-            <Button
-                android:id="@+id/box"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="180dp"
-                android:layout_marginTop="50dp"
-                android:background="@drawable/spot">
-            </Button>
-        </LinearLayout>
+        <Button
+            android:id="@+id/playercard"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="320dp"
+            android:background="@drawable/spot">
+        </Button>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bankercard"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginStart="500dp"
+            android:background="@drawable/spot">
+        </Button>
+
+        <Button
+            android:id="@+id/box"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-50dp"
+            android:layout_marginStart="680dp"
+            android:background="@drawable/spot">
+        </Button>
+
         <Button
             android:id="@+id/pair"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginStart="220dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/spot">
         </Button>
+
         <Button
             android:id="@+id/tie"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginStart="150dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginStart="400dp"
             android:background="@drawable/spot">
         </Button>
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="70dp"
-        android:orientation="vertical">
         <Button
             android:id="@+id/banker"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginStart="500dp"
+            android:layout_marginStart="480dp"
             android:background="@drawable/spot">
         </Button>
 
@@ -86,6 +74,5 @@
             android:layout_marginStart="300dp"
             android:background="@drawable/spot">
         </Button>
-    </LinearLayout>
 
-</LinearLayout></ScrollView>
+    </LinearLayout></ScrollView>
