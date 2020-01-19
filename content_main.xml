@@ -21,6 +21,8 @@
         android:layout_marginTop="50dp"
         android:text="introduction"
         android:background="@drawable/main_round_button"
+        android:drawableStart="@drawable/main1"
+        android:paddingLeft="10dp"
         />
 
     <Button
@@ -32,6 +34,8 @@
         android:layout_marginTop="20dp"
         android:text="Rule learning"
         android:background="@drawable/main_round_button"
+        android:drawableStart="@drawable/main2"
+        android:paddingLeft="10dp"
         />
 
     <Button
@@ -42,7 +46,9 @@
         android:layout_marginEnd="80dp"
         android:layout_marginTop="20dp"
         android:text="Wagers calculation"
-        android:background="@drawable/main_round_button"/>
+        android:background="@drawable/main_round_button"
+        android:drawableStart="@drawable/main3"
+        android:paddingLeft="7dp"/>
 
     <Button
         android:id="@+id/game"
@@ -52,7 +58,9 @@
         android:layout_marginEnd="80dp"
         android:layout_marginTop="20dp"
         android:text="Game"
-        android:background="@drawable/main_round_button"/>
+        android:background="@drawable/main_round_button"
+        android:drawableStart="@drawable/main4"
+        android:paddingLeft="10dp"/>
 
 
     <Button
@@ -63,7 +71,9 @@
         android:layout_marginEnd="80dp"
         android:layout_marginTop="20dp"
         android:text="leaderboard"
-        android:background="@drawable/main_round_button"/>
+        android:background="@drawable/main_round_button"
+        android:drawableStart="@drawable/main5"
+        android:paddingLeft="10dp"/>
 
 
     <Button
@@ -74,8 +84,9 @@
         android:layout_marginEnd="80dp"
         android:layout_marginTop="20dp"
         android:text="logout"
-        android:background="@drawable/main_round_button"/>
-
+        android:background="@drawable/main_round_button"
+        android:drawableEnd="@drawable/main6"
+        android:paddingEnd="10dp"/>
 
 
 
