@@ -36,14 +36,16 @@
                 android:id="@+id/gamebanker2"
                 android:layout_width="60dp"
                 android:layout_height="100dp"
-                android:layout_marginTop="50dp" />
+                android:layout_marginTop="50dp"
+                android:visibility="invisible"/>
 
             <ImageView
                 android:id="@+id/gamebanker1"
                 android:layout_width="60dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="50dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:visibility="invisible"/>
 
             <ImageView
                 android:id="@+id/gameplayer1"
@@ -57,7 +59,8 @@
                 android:layout_width="60dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="50dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:visibility="invisible"/>
 
         </LinearLayout>
 
@@ -91,7 +94,7 @@
 
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="390dp"
         android:layout_height="200dp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
@@ -180,8 +183,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="0"
         android:textSize="50dp"
+        android:textColor="#FF0000"
         android:visibility="gone"/>
 
     <LinearLayout
@@ -226,11 +229,9 @@
 
 
     <LinearLayout
-        android:id="@+id/chipskuai"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:visibility="gone">
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -293,11 +294,13 @@
 
 
         <LinearLayout
+            android:id="@+id/chipskuai"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="invisible">
 
             <Button
                 android:id="@+id/gamesubmit"
