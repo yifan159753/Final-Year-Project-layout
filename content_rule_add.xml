@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".rule_add"
+        tools:showIn="@layout/activity_rule_add">
+
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:text="If Banker's first two card total is ">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/rule_add_card1"
+                android:layout_width="60dp"
+                android:layout_height="100dp">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/rule_add_card2"
+                android:layout_marginLeft="20dp"
+                android:layout_width="60dp"
+                android:layout_height="100dp">
+            </ImageView>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rule_add_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="40sp"
+            android:textColor="#ff0000">
+        </TextView>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:text="The Banker can draw the third card when the Player's third card is :">
+        </TextView>
+
+        <HorizontalScrollView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/card1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/card11"
+                    />
+                <CheckBox
+                    android:id="@+id/card2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/card12"
+                    />
+                <CheckBox
+                    android:id="@+id/card3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/card13"
+                    />
+                <CheckBox
+                    android:id="@+id/card4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/card14"
+                    />
+                <CheckBox
+                    android:id="@+id/card5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/card15"
+                    />
+                <CheckBox
+                    android:id="@+id/card6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/card16"
+                    />
+                <CheckBox
+                    android:id="@+id/card7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/card17"
+                    />
+                <CheckBox
+                    android:id="@+id/card8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/card18"
+                    />
+                <CheckBox
+                    android:id="@+id/card9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/card19"
+                    />
+                <CheckBox
+                    android:id="@+id/card10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/card110"
+                    />
+                <CheckBox
+                    android:id="@+id/card11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/card111"
+                    />
+                <CheckBox
+                    android:id="@+id/card12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/card112"
+                    />
+                <CheckBox
+                    android:id="@+id/card13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/card113"
+                    />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/rule_add_submit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/main_round_button"
+            android:text="submit">
+        </Button>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -12,24 +12,24 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/go_to_question"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:text="Question quiz"
-            android:textSize="15dp"
-            android:drawableTop="@drawable/game1"
-            android:padding="60dp"
-            android:background="@drawable/gamebutton"/>
+            android:id="@+id/go_to_rule_add"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="rule learning 1"
+            android:textSize="15sp"
+            android:paddingStart="45dp"
+            android:paddingEnd="30dp"
+            android:background="@drawable/rulebutton"/>
 
         <Button
-            android:id="@+id/go_to_baccarat"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:padding="60dp"
-            android:text="Game training"
-            android:textSize="15dp"
-            android:drawableTop="@drawable/game2"
-            android:background="@drawable/gamebutton"/>
+            android:id="@+id/go_to_rule"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="rule learning 2"
+            android:textSize="15sp"
+            android:paddingStart="45dp"
+            android:paddingEnd="30dp"
+            android:background="@drawable/rulebutton"/>
 
 
     </LinearLayout>
