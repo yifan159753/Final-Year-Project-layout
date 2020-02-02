@@ -13,22 +13,22 @@
 
         <Button
             android:id="@+id/go_to_rule_add"
-            android:layout_width="150dp"
+            android:layout_width="180dp"
             android:layout_height="150dp"
             android:text="rule learning 1"
             android:textSize="15sp"
-            android:paddingStart="45dp"
-            android:paddingEnd="30dp"
+            android:paddingStart="55dp"
+            android:paddingEnd="40dp"
             android:background="@drawable/rulebutton"/>
 
         <Button
             android:id="@+id/go_to_rule"
-            android:layout_width="150dp"
+            android:layout_width="180dp"
             android:layout_height="150dp"
             android:text="rule learning 2"
             android:textSize="15sp"
-            android:paddingStart="45dp"
-            android:paddingEnd="30dp"
+            android:paddingStart="55dp"
+            android:paddingEnd="40dp"
             android:background="@drawable/rulebutton"/>
 
 

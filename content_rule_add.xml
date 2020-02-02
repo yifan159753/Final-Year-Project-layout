@@ -28,7 +28,7 @@
                 android:layout_width="130dp"
                 android:layout_height="15dp"
                 android:src="#000000"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="31dp"
                 android:layout_marginStart="180dp"
                 android:visibility="invisible">
             </ImageView>
@@ -47,7 +47,7 @@
                 android:layout_width="95dp"
                 android:layout_height="15dp"
                 android:src="#000000"
-                android:layout_marginTop="72dp"
+                android:layout_marginTop="73dp"
                 android:layout_marginStart="120dp"
                 android:visibility="invisible">
             </ImageView>
