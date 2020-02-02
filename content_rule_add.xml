@@ -15,47 +15,90 @@
         tools:showIn="@layout/activity_rule_add">
 
 
-        <TextView
-            android:layout_width="360dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="50dp"
-            android:textSize="25sp"
-            android:textColor="#000000"
-            android:text="If Banker's first two card total is ">
-        </TextView>
-
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
             android:layout_gravity="center"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/dealt_card_rules">
 
             <ImageView
-                android:id="@+id/rule_add_card1"
-                android:layout_width="60dp"
-                android:layout_height="100dp">
+                android:id="@+id/rule_add_1"
+                android:layout_width="130dp"
+                android:layout_height="15dp"
+                android:src="#000000"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="180dp"
+                android:visibility="invisible">
             </ImageView>
 
             <ImageView
-                android:id="@+id/rule_add_card2"
-                android:layout_marginLeft="20dp"
-                android:layout_width="60dp"
-                android:layout_height="100dp">
+                android:id="@+id/rule_add_2"
+                android:layout_width="130dp"
+                android:layout_height="15dp"
+                android:src="#000000"
+                android:layout_marginStart="180dp"
+                android:visibility="invisible">
             </ImageView>
 
+            <ImageView
+                android:id="@+id/rule_add_3"
+                android:layout_width="95dp"
+                android:layout_height="15dp"
+                android:src="#000000"
+                android:layout_marginTop="72dp"
+                android:layout_marginStart="120dp"
+                android:visibility="invisible">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/rule_add_4"
+                android:layout_width="95dp"
+                android:layout_height="15dp"
+                android:src="#000000"
+                android:layout_marginStart="120dp"
+                android:visibility="invisible">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/rule_add_5"
+                android:layout_width="95dp"
+                android:layout_height="15dp"
+                android:src="#000000"
+                android:layout_marginStart="250dp"
+                android:visibility="invisible">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/rule_add_6"
+                android:layout_width="95dp"
+                android:layout_height="15dp"
+                android:src="#000000"
+                android:layout_marginStart="120dp"
+                android:visibility="invisible">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/rule_add_7"
+                android:layout_width="95dp"
+                android:layout_height="15dp"
+                android:src="#000000"
+                android:layout_marginStart="250dp"
+                android:visibility="invisible">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/rule_add_8"
+                android:layout_width="95dp"
+                android:layout_height="15dp"
+                android:src="#000000"
+                android:layout_marginStart="120dp"
+                android:visibility="invisible">
+            </ImageView>
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/rule_add_question"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:textSize="40sp"
-            android:textColor="#ff0000">
-        </TextView>
 
         <TextView
             android:layout_width="360dp"
@@ -63,7 +106,8 @@
             android:layout_gravity="center"
             android:textSize="25sp"
             android:textColor="#000000"
-            android:text="The Banker can draw the third card when the Player's third card is :">
+            android:layout_marginTop="20dp"
+            android:text="The blank in the picture above is :">
         </TextView>
 
         <HorizontalScrollView
@@ -76,6 +120,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/draws"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/draws_card"
+                    />
+
+                <CheckBox
+                    android:id="@+id/stand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:drawableEnd="@drawable/stands_card"
+                />
+
 
                 <CheckBox
                     android:id="@+id/card1"
