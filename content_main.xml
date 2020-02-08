@@ -10,15 +10,13 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
-
-
     <Button
         android:id="@+id/introduction"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:layout_marginEnd="80dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:text="introduction"
         android:background="@drawable/main_round_button"
         android:drawableStart="@drawable/main1"
@@ -100,6 +98,13 @@
         android:drawableEnd="@drawable/main7"
         android:paddingEnd="10dp"/>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/main">
+    </ImageView>
 
 
 </LinearLayout>

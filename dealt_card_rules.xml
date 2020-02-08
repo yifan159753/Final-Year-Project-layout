@@ -1,20 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <ScrollView
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="230dp"
-        android:layout_gravity="center"
-        android:background="@drawable/dealt_card_rules"
-        android:scaleType="centerCrop" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/b">
+
+            <LinearLayout
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/logo">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#000000"
+                    android:text="Dealt cards rules"
+                    android:layout_gravity="bottom"
+                    android:textStyle="bold">
+                </TextView>
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="The dealt cards rule can be summarized as the following figure:\n"
+                android:textColor="#000000">
+            </TextView>
+
+            <ImageView
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_gravity="center"
+                android:background="@drawable/dealt_card_rules"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:text="\nIt is worth noting that if the player has one of its other two standing hands, 6 or 7, banker stands on 6 as well as 7, 8 and 9.\n">
+            </TextView>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/baccarat">
+            </ImageView>
+
+            <Button
+                android:id="@+id/dealt_card_rules_continue"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="-60dp"
+                android:text="continue"
+                android:background="@drawable/main_round_button"
+                android:layout_gravity="end|bottom">
+            </Button>
 
 
-</LinearLayout></ScrollView>
+        </LinearLayout></ScrollView>
+
+
+</LinearLayout>
+

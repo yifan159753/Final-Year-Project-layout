@@ -1,37 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content">
-
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:layout_gravity="center"
-        android:orientation="horizontal">
+        android:background="@drawable/b">
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/logo">
+            </ImageView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textColor="#000000"
+                android:text="Dealt cards rules"
+                android:layout_gravity="bottom"
+                android:textStyle="bold">
+            </TextView>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="The dealt cards rule can be summarized as the following figure:\n"
+            android:textColor="#000000">
+        </TextView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:background="@drawable/dealt_card_rules"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:text="\nIt is worth noting that if the player has one of its other two standing hands, 6 or 7, banker stands on 6 as well as 7, 8 and 9.\n">
+        </TextView>
+
 
         <Button
             android:id="@+id/go_to_rule_add"
-            android:layout_width="180dp"
-            android:layout_height="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginTop="20dp"
             android:text="rule learning 1"
-            android:textSize="15sp"
-            android:paddingStart="55dp"
-            android:paddingEnd="40dp"
-            android:background="@drawable/rulebutton"/>
+            android:background="@drawable/main_round_button"
+            android:drawableStart="@drawable/main2"
+            android:paddingLeft="10dp" />
 
         <Button
             android:id="@+id/go_to_rule"
-            android:layout_width="180dp"
-            android:layout_height="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:text="rule learning 2"
-            android:textSize="15sp"
-            android:paddingStart="55dp"
-            android:paddingEnd="40dp"
-            android:background="@drawable/rulebutton"/>
+            android:background="@drawable/main_round_button"
+            android:drawableStart="@drawable/main2"
+            android:paddingLeft="10dp" />
 
-
-    </LinearLayout>
-
-</LinearLayout>
+    </LinearLayout></ScrollView>

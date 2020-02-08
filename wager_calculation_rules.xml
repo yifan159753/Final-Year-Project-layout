@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/b">
+
+
+        <LinearLayout
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/logo">
+            </ImageView>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textColor="#000000"
+                android:text="Wager calculation rules"
+                android:layout_gravity="bottom"
+                android:textStyle="bold">
+            </TextView>
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="1. The winner takes the betting amount.\n(If a participant wins by betting on the hand of the “banker”, 5% commission is deducted from the winning amount)"
+            android:textColor="#000000">
+        </TextView>
+
+        <ImageView
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/banker_payout_tip">
+        </ImageView>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="(If a participant wins by betting on the hand of the “player”, participant wins 1 times the betting amount)\n\n"
+            android:textColor="#000000">
+        </TextView>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:text="2. If a participant wins by betting a tie wager, participant wins 8 times the betting amount.\n(Tie: when the sums of the banker’s hand and the player’s hand are the same)">
+        </TextView>
+
+        <ImageView
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/tie_payout_tip">
+        </ImageView>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:text="\n\n3. If a participant wins by Pair Bet, participant wins 11 times the betting amount.\n(Pair: when the first 2 cards are the same)\n">
+        </TextView>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/casino">
+        </ImageView>
+
+        <Button
+            android:id="@+id/wager_calculation_rules_continue"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="-60dp"
+            android:text="continue"
+            android:background="@drawable/main_round_button"
+            android:layout_gravity="end|bottom">
+        </Button>
+
+
+
+
+    </LinearLayout></ScrollView>
+
+</LinearLayout>
