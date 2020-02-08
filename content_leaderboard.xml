@@ -10,6 +10,7 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".leaderboard"
     tools:showIn="@layout/activity_leaderboard">
 
@@ -17,7 +18,7 @@
         android:id="@+id/table"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="30dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:shrinkColumns="*"
@@ -58,5 +59,13 @@
 
 
     </TableLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/leadership">
+    </ImageView>
 
 </LinearLayout></ScrollView>

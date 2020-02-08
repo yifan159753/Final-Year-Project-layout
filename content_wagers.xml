@@ -57,7 +57,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:gravity="center"
         android:textSize="25dp"
         android:text="Betting :"
@@ -72,15 +72,36 @@
         android:textColor="@android:color/holo_red_dark"/>
 
     <TextView
-        android:id="@+id/wagerquestion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
         android:gravity="center"
-        android:textColor="@android:color/black"
+        android:textColor="#000000"
+        android:text="Wins by betting on the"
+        android:textSize="25dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/wagerquestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:textColor="#ff0000"
         android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="wagers calculation:"
+        android:textSize="25dp">
+    </TextView>
 
     <TextView
         android:id="@+id/wagerans"
